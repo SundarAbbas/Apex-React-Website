@@ -2,7 +2,9 @@ function About() {
   return (
     <div>
       <div className="p-3 gap-3 items-center justify-center grid grid-cols-1  lg:grid-cols-2 max-w-6xl mx-auto min-h-[500px] ">
-        <div className=" bg-[url('/about.png')] min-h-[400px] bg-cover text-center rounded"></div>
+        <div className="w-full flex items-center justify-center ">
+          <img src="/about.png" className="w-[500px]" alt="" />
+        </div>
         <div className="p-7 lg:p-0 text-center lg:text-justify ">
           <h1 className="mb-5 text-gray-600 font-bold lg:text-4xl text-2xl ">
             The unseen of spending three <br /> years at Pixelgrade{" "}

@@ -29,12 +29,34 @@ function Details() {
             British Dragon Boat Racing Association
           </p>
           <div className=" lg:flex items-center gap-10 py-10">
-            <div className="flex   gap-10">
-              <img src="/logoipsum-371.png" width={50} alt="" />
-              <img src="/logoipsum-378.png" width={50} alt="" />
-              <img src="/logoipsum-357.png" width={50} alt="" />
-              <img src="/logoipsum-420.png" width={50} alt="" />
-              <img src="/logoipsum-405.png" width={50} alt="" />
+            <div className="flex flex-nowrap  justify-center  gap-10">
+              <div className="flex flex-nowrap items-center justify-between gap-4">
+                <img
+                  src="/logoipsum-371.png"
+                  className="w-10 md:w-12 h-auto"
+                  alt="logo"
+                />
+                <img
+                  src="/logoipsum-378.png"
+                  className="w-10 md:w-12 h-auto"
+                  alt="logo"
+                />
+                <img
+                  src="/logoipsum-357.png"
+                  className="w-10 md:w-12 h-auto"
+                  alt="logo"
+                />
+                <img
+                  src="/logoipsum-420.png"
+                  className="w-10 md:w-12 h-auto"
+                  alt="logo"
+                />
+                <img
+                  src="/logoipsum-405.png"
+                  className="w-10 md:w-12 h-auto"
+                  alt="logo"
+                />
+              </div>
             </div>
             <div className="text-red-700 flex items-center justify-center font-bold gap-6 text-[17px] ">
               <p>Meet All Customers</p>
